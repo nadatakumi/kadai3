@@ -8,7 +8,7 @@ public class Qes6 {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        // 入力を受け取る
+        // 入力
         System.out.println("商品の名前を入力してください（「、」区切り）：");
         String input = scanner.nextLine();
         String[] products = input.split("、");
@@ -16,7 +16,7 @@ public class Qes6 {
         // 商品リスト
         String[] validProducts = {"パソコン", "冷蔵庫", "扇風機", "洗濯機", "加湿器", "テレビ", "ディスプレイ"};
 
-        // 商品ごとの残り台数を出力
+        // 商品ごとの残り台数
         for (String product : products) {
             boolean isValidProduct = false;
             int stock = random.nextInt(12); // 0〜11のランダムな値

@@ -6,7 +6,7 @@ public class Qes7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // 生徒の人数を入力
+        // 生徒の人数
         System.out.print("生徒の人数を入力してください（2以上）: ");
         int numberOfStudents = scanner.nextInt();
 

@@ -8,7 +8,7 @@ public class Qes1_3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // ユーザー名の入力
+        // ユーザー名
         System.out.print("ユーザー名を入力してください: ");
         String username = scanner.nextLine();
 
@@ -23,7 +23,7 @@ public class Qes1_3 {
             // 正常な場合、ユーザー名を登録してじゃんけんを開始
             System.out.println("ユーザー名「" + username + "」を登録しました");
 
-            // じゃんけんシステムの開始
+            // じゃんけんシステム
             startJanken(username, scanner);
         }
 
@@ -38,7 +38,7 @@ public class Qes1_3 {
         while (true) {
             rounds++;
 
-            // プレイヤーの手を入力
+            // プレイヤーの手
             System.out.print("じゃんけんの手を入力してください (0: グー, 1: チョキ, 2: パー): ");
             int playerHand = scanner.nextInt();
 
